@@ -182,7 +182,7 @@ namespace ModbusTester
             ModbusIpMaster master = ConnectModbusMaster(tcpClient);
 
             ushort startAddress = 0;
-            ushort numOfPoints = 16;
+            ushort numOfPoints = 16; // 2 x 8 inputs
             master.Transport.ReadTimeout = Convert.ToInt16(textBox5.Text);
 
             try
@@ -308,7 +308,7 @@ namespace ModbusTester
             int startAddress = 512;
             int o = startAddress;
             ushort readAddress = (ushort)o;
-            ushort numberOfCoils = 16;
+            ushort numberOfCoils = 16; // 2 x 8 outputs
 
             bool[] boolArray = new bool[numberOfCoils];
 
