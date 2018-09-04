@@ -1,0 +1,11 @@
+D:\workspace\vs\ModbusTester\ModbusTester\bin\Debug\ModbusTester.exe.config
+D:\workspace\vs\ModbusTester\ModbusTester\bin\Debug\ModbusTester.exe
+D:\workspace\vs\ModbusTester\ModbusTester\bin\Debug\ModbusTester.pdb
+D:\workspace\vs\ModbusTester\ModbusTester\bin\Debug\Modbus.dll
+D:\workspace\vs\ModbusTester\ModbusTester\obj\Debug\ModbusTester.csprojResolveAssemblyReference.cache
+D:\workspace\vs\ModbusTester\ModbusTester\obj\Debug\ModbusTester.Form1.resources
+D:\workspace\vs\ModbusTester\ModbusTester\obj\Debug\ModbusTester.Properties.Resources.resources
+D:\workspace\vs\ModbusTester\ModbusTester\obj\Debug\ModbusTester.csproj.GenerateResource.Cache
+D:\workspace\vs\ModbusTester\ModbusTester\obj\Debug\ModbusTester.exe
+D:\workspace\vs\ModbusTester\ModbusTester\obj\Debug\ModbusTester.pdb
+D:\workspace\vs\ModbusTester\ModbusTester\bin\Debug\Unme.Common.dll
