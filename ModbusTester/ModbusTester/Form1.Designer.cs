@@ -56,6 +56,18 @@
             this.button7 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.comboBoxRedLamp = new System.Windows.Forms.ComboBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.comboBoxYellowLamp = new System.Windows.Forms.ComboBox();
+            this.comboBoxGreenLamp = new System.Windows.Forms.ComboBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.comboBoxBlueLamp = new System.Windows.Forms.ComboBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.comboBoxWhiteLamp = new System.Windows.Forms.ComboBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.comboBoxSounder = new System.Windows.Forms.ComboBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // button1
@@ -318,11 +330,173 @@
             this.label6.TabIndex = 22;
             this.label6.Text = "Modbus / El. Drawing / Label";
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(622, 11);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(127, 21);
+            this.checkBox1.TabIndex = 24;
+            this.checkBox1.Text = "Test Red Lamp";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // comboBoxRedLamp
+            // 
+            this.comboBoxRedLamp.DisplayMember = "Off";
+            this.comboBoxRedLamp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxRedLamp.FormattingEnabled = true;
+            this.comboBoxRedLamp.Items.AddRange(new object[] {
+            "Off",
+            "On",
+            "Flashing"});
+            this.comboBoxRedLamp.Location = new System.Drawing.Point(622, 39);
+            this.comboBoxRedLamp.Name = "comboBoxRedLamp";
+            this.comboBoxRedLamp.Size = new System.Drawing.Size(121, 24);
+            this.comboBoxRedLamp.TabIndex = 25;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(622, 83);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(141, 21);
+            this.checkBox2.TabIndex = 26;
+            this.checkBox2.Text = "Test Yellow Lamp";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            // 
+            // comboBoxYellowLamp
+            // 
+            this.comboBoxYellowLamp.DisplayMember = "Off";
+            this.comboBoxYellowLamp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxYellowLamp.FormattingEnabled = true;
+            this.comboBoxYellowLamp.Items.AddRange(new object[] {
+            "Off",
+            "On",
+            "Flashing"});
+            this.comboBoxYellowLamp.Location = new System.Drawing.Point(622, 110);
+            this.comboBoxYellowLamp.Name = "comboBoxYellowLamp";
+            this.comboBoxYellowLamp.Size = new System.Drawing.Size(121, 24);
+            this.comboBoxYellowLamp.TabIndex = 27;
+            // 
+            // comboBoxGreenLamp
+            // 
+            this.comboBoxGreenLamp.DisplayMember = "Off";
+            this.comboBoxGreenLamp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxGreenLamp.FormattingEnabled = true;
+            this.comboBoxGreenLamp.Items.AddRange(new object[] {
+            "Off",
+            "On",
+            "Flashing"});
+            this.comboBoxGreenLamp.Location = new System.Drawing.Point(622, 178);
+            this.comboBoxGreenLamp.Name = "comboBoxGreenLamp";
+            this.comboBoxGreenLamp.Size = new System.Drawing.Size(121, 24);
+            this.comboBoxGreenLamp.TabIndex = 29;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(622, 151);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(141, 21);
+            this.checkBox3.TabIndex = 28;
+            this.checkBox3.Text = "Test Green Lamp";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
+            // 
+            // comboBoxBlueLamp
+            // 
+            this.comboBoxBlueLamp.DisplayMember = "Off";
+            this.comboBoxBlueLamp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxBlueLamp.FormattingEnabled = true;
+            this.comboBoxBlueLamp.Items.AddRange(new object[] {
+            "Off",
+            "On",
+            "Flashing"});
+            this.comboBoxBlueLamp.Location = new System.Drawing.Point(622, 247);
+            this.comboBoxBlueLamp.Name = "comboBoxBlueLamp";
+            this.comboBoxBlueLamp.Size = new System.Drawing.Size(121, 24);
+            this.comboBoxBlueLamp.TabIndex = 31;
+            this.comboBoxBlueLamp.SelectedIndexChanged += new System.EventHandler(this.comboBox4_SelectedIndexChanged);
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(622, 220);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(129, 21);
+            this.checkBox4.TabIndex = 30;
+            this.checkBox4.Text = "Test Blue Lamp";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // comboBoxWhiteLamp
+            // 
+            this.comboBoxWhiteLamp.DisplayMember = "Off";
+            this.comboBoxWhiteLamp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxWhiteLamp.FormattingEnabled = true;
+            this.comboBoxWhiteLamp.Items.AddRange(new object[] {
+            "Off",
+            "On",
+            "Flashing"});
+            this.comboBoxWhiteLamp.Location = new System.Drawing.Point(622, 315);
+            this.comboBoxWhiteLamp.Name = "comboBoxWhiteLamp";
+            this.comboBoxWhiteLamp.Size = new System.Drawing.Size(121, 24);
+            this.comboBoxWhiteLamp.TabIndex = 33;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(622, 288);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(137, 21);
+            this.checkBox5.TabIndex = 32;
+            this.checkBox5.Text = "Test White Lamp";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
+            // 
+            // comboBoxSounder
+            // 
+            this.comboBoxSounder.DisplayMember = "Off";
+            this.comboBoxSounder.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxSounder.FormattingEnabled = true;
+            this.comboBoxSounder.Items.AddRange(new object[] {
+            "Off",
+            "On",
+            "Flashing"});
+            this.comboBoxSounder.Location = new System.Drawing.Point(622, 384);
+            this.comboBoxSounder.Name = "comboBoxSounder";
+            this.comboBoxSounder.Size = new System.Drawing.Size(121, 24);
+            this.comboBoxSounder.TabIndex = 35;
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(622, 357);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(156, 21);
+            this.checkBox6.TabIndex = 34;
+            this.checkBox6.Text = "Test Sounder Alarm";
+            this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBox6.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(562, 528);
+            this.ClientSize = new System.Drawing.Size(789, 528);
+            this.Controls.Add(this.comboBoxSounder);
+            this.Controls.Add(this.checkBox6);
+            this.Controls.Add(this.comboBoxWhiteLamp);
+            this.Controls.Add(this.checkBox5);
+            this.Controls.Add(this.comboBoxBlueLamp);
+            this.Controls.Add(this.checkBox4);
+            this.Controls.Add(this.comboBoxGreenLamp);
+            this.Controls.Add(this.checkBox3);
+            this.Controls.Add(this.comboBoxYellowLamp);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.comboBoxRedLamp);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button7);
@@ -348,6 +522,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "ModbusTester";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -381,6 +556,18 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.ComboBox comboBoxRedLamp;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.ComboBox comboBoxYellowLamp;
+        private System.Windows.Forms.ComboBox comboBoxGreenLamp;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.ComboBox comboBoxBlueLamp;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.ComboBox comboBoxWhiteLamp;
+        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.ComboBox comboBoxSounder;
+        private System.Windows.Forms.CheckBox checkBox6;
     }
 }
 
