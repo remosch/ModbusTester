@@ -20,6 +20,7 @@ namespace ModbusTester
         public Form1()
         {
             InitializeComponent();
+
             comboBox1.SelectedIndex = 0;
             comboBox2.SelectedIndex = 0;
             comboBox3.SelectedIndex = 0;
@@ -34,14 +35,6 @@ namespace ModbusTester
             textBox3.Text = "10.0.0.246";
             textBox4.Text = "502";
             textBox5.Text = "1000";
-        }
-
-        public enum eLampState
-        {
-            Unavailable,
-            Off,
-            On,
-            Flashing
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -430,7 +423,7 @@ namespace ModbusTester
             TcpClient tcpClient = ConnectTcpClient();
             ModbusIpMaster master = ConnectModbusMaster(tcpClient);
 
-            ushort yellowLampAddress = 514;
+            ushort yellowLampAddress = 513;
             int index = 0;
             bool run = false;
 
@@ -489,7 +482,7 @@ namespace ModbusTester
             TcpClient tcpClient = ConnectTcpClient();
             ModbusIpMaster master = ConnectModbusMaster(tcpClient);
 
-            ushort greenLampAddress = 516;
+            ushort greenLampAddress = 514;
             int index = 0;
             bool run = false;
 
@@ -548,7 +541,7 @@ namespace ModbusTester
             TcpClient tcpClient = ConnectTcpClient();
             ModbusIpMaster master = ConnectModbusMaster(tcpClient);
 
-            ushort blueLampAddress = 518;
+            ushort blueLampAddress = 515;
             int index = 0;
             bool run = false;
 
@@ -607,7 +600,7 @@ namespace ModbusTester
             TcpClient tcpClient = ConnectTcpClient();
             ModbusIpMaster master = ConnectModbusMaster(tcpClient);
 
-            ushort whiteLampAddress = 513;
+            ushort whiteLampAddress = 516;
             int index = 0;
             bool run = false;
 
@@ -666,7 +659,7 @@ namespace ModbusTester
             TcpClient tcpClient = ConnectTcpClient();
             ModbusIpMaster master = ConnectModbusMaster(tcpClient);
 
-            ushort sounderAddress = 515;
+            ushort sounderAddress = 517;
             int index = 0;
             bool run = false;
 

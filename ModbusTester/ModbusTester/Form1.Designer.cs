@@ -116,20 +116,20 @@
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.Items.AddRange(new object[] {
             "512 - Output 1 - Stacklight (Red)",
-            "513 - Output 5 - Stacklight (White)",
-            "514 - Output 2 - Stacklight (Yellow)",
-            "515 - Output 6 - Stacklight (Audible Alarm)",
-            "516 - Output 3 - Stacklight (Green)",
-            "517 - Output 7 - Not Assigned",
-            "518 - Output 4 - Stacklight (Blue)",
+            "513 - Output 2 - Stacklight (Yellow)",
+            "514 - Output 3 - Stacklight (Green)",
+            "515 - Output 4 - Stacklight (Blue)",
+            "516 - Output 5 - Stacklight (White)",
+            "517 - Output 6 - Stacklight (Audible Alarm)",
+            "518 - Output 7 - Not Assigned",
             "519 - Output 8 - Not Assigned",
             "520 - Output 9 - Customer Output 1",
-            "521 - Output 13 - ECS Output 1",
-            "522 - Output 10 - Customer Output 2",
-            "523 - Output 14 - ECS Output 2",
-            "524 - Output 11 - Customer Output 3",
-            "525 - Output 15 - ECS Output 3",
-            "526 - Output 12 - Customer Output 4",
+            "521 - Output 10 - Customer Output 2",
+            "522 - Output 11 - Customer Output 3",
+            "523 - Output 12 - Customer Output 4",
+            "524 - Output 13 - ECS Output 1",
+            "525 - Output 14 - ECS Output 2",
+            "526 - Output 15 - ECS Output 3",
             "527 - Output 16 - ECS Output 4"});
             this.comboBox1.Location = new System.Drawing.Point(223, 65);
             this.comboBox1.Name = "comboBox1";
@@ -187,20 +187,20 @@
             this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox3.Items.AddRange(new object[] {
             "0 - Input1 - Tile Sensor",
-            "1 - Input5 - Customer Input 1",
-            "2 - Input2 - UPS Alarm (Env. Monitoring)",
-            "3 - Input6 - Customer Input 2",
-            "4 - Input3 - UPS Alarm (LED Lighting)",
-            "5 - Input7 - Customer Input 3",
-            "6 - Input4 - Not Assigned",
+            "1 - Input2 - UPS Alarm (Env. Monitoring)",
+            "2 - Input3 - UPS Alarm (LED Lighting)",
+            "3 - Input4 - Not Assigned",
+            "4 - Input5 - Customer Input 1",
+            "5 - Input6 - Customer Input 2",
+            "6 - Input7 - Customer Input 3",
             "7 - Input8 - Customer Input 4",
             "8 - Input9 - ECS Input 1",
-            "9 - Input13 - Not Assigned",
-            "10 - Input10 - ECS Input 2",
-            "11 - Input14 - Not Assigned",
-            "12 - Input11 - ECS Input 3",
-            "13 - Input15 - Not Assigned",
-            "14 - Input12 - ECS Input 4",
+            "9 - Input10 - ECS Input 2",
+            "10 - Input11 - ECS Input 3",
+            "11 - Input12 - ECS Input 4",
+            "12 - Input13 - Not Assigned",
+            "13 - Input14 - Not Assigned",
+            "14 - Input15 - Not Assigned",
             "15 - Input16 - Not Assigned            "});
             this.comboBox3.Location = new System.Drawing.Point(223, 119);
             this.comboBox3.Name = "comboBox3";
@@ -463,7 +463,7 @@
             this.comboBoxSounder.Items.AddRange(new object[] {
             "Off",
             "On",
-            "Flashing"});
+            "Pulse"});
             this.comboBoxSounder.Location = new System.Drawing.Point(622, 384);
             this.comboBoxSounder.Name = "comboBoxSounder";
             this.comboBoxSounder.Size = new System.Drawing.Size(121, 24);
@@ -484,6 +484,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(789, 528);
             this.Controls.Add(this.comboBoxSounder);
             this.Controls.Add(this.checkBox6);
